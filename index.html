@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mascota Virtual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mascota-app">
+        <h1>🐾 Mi Mascota Virtual 🐾</h1>
+
+        <div class="mascota">
+            <img src="https://i.pinimg.com/originals/59/86/18/598618b9bd4335414caf761dd78162e7.jpg" alt="Mascota" id="mascotaImg">
+        </div>
+
+        <div class="estados">
+            <p>Hambre: <span id="hambre">50</span>/100</p>
+            <p>Sueño: <span id="sueño">50</span>/100</p>
+            <p>Felicidad: <span id="felicidad">50</span>/100</p>
+        </div>
+
+        <div class="acciones">
+            <button onclick="alimentar()">🍎 Alimentar</button>
+            <button onclick="dormir()">💤 Dormir</button>
+            <button onclick="jugar()">🎾 Jugar</button>
+            <button id="guardarBtn">💾 Guardar Progreso</button>
+        </div>
+
+        <p id="mensaje"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

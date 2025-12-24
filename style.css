@@ -1,0 +1,55 @@
+body {
+    background: #121212;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+}
+
+.mascota-app {
+    background: #1e1e1e;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,255,255,0.2);
+    width: 350px;
+}
+
+.mascota img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    transition: transform 0.3s;
+}
+
+.acciones button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #2196f3;
+    color: white;
+    transition: transform 0.1s, background 0.2s;
+}
+
+.acciones button:hover {
+    background: #64b5f6;
+}
+
+.acciones button:active {
+    transform: scale(0.95);
+}
+
+#mensaje {
+    margin-top: 10px;
+    color: #00e676;
+    font-weight: bold;
+}
+
+.estados p {
+    margin: 5px 0;
+}
